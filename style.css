@@ -39,9 +39,17 @@ body {
   display: inline-block;
   margin-top: 20px;
 }
-#second-btn .btn {
+.btn-second {
+  background-color: rgb(248, 68, 68);
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 700;
   display: inline-block;
+  margin-top: 20px;
 }
+
 .second-top-text {
   text-align: center;
   margin-top: 30px;
@@ -147,7 +155,7 @@ footer small {
   margin-top: 15px;
 }
 .section-side {
-  margin-top: 40px;
+  margin-top: 120px;
   display: flex;
   justify-content: center;
 }
@@ -181,4 +189,48 @@ footer small {
   font-size: 20px;
   line-height: 25px;
   padding-bottom: 35px;
+  padding-right: 50px;
+}
+.subscribe {
+  background: rgb(255, 255, 213);
+  height: 100px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  padding-bottom: 75px;
+}
+.subscribe button {
+  background: rgb(243, 68, 68);
+  height: 30px;
+  width: 120px;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  margin-left: -5px;
+  border-radius: 0 15px 15px 0;
+  padding: 20px 0;
+  padding-bottom: 20px;
+}
+.subscribe input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  background: rgb(235, 233, 233);
+  text-align: left;
+  margin-top: 40px;
+  padding: 20px 0;
+  padding-left: 5px;
+}
+section .subscribe {
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.container .btn-second {
+  margin: 0 auto;
+}
+.btn-second {
+  display: inline-block;
+  margin: 0 auto;
 }
