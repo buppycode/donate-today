@@ -1,19 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 body {
   font-family: "Josefin Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 .top-bg-img {
   width: 100%;
   opacity: 0.9;
 }
 .container {
-  position: relative;
-  text-align: center;
-  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hero {
+  background-image: url(images/donation13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
 }
 .top-h1-p {
-  position: absolute;
-  top: 290px;
-  left: 230px;
+  text-align: center;
+  color: #fff;
 }
 .first-h1 {
   font-size: 60px;
@@ -24,9 +35,10 @@ body {
   color: white;
   padding: 15px 30px;
   text-decoration: none;
-  margin: 10px;
   border-radius: 10px;
   font-weight: 700;
+  display: inline-block;
+  margin-top: 20px;
 }
 .second-top-text {
   text-align: center;
@@ -67,23 +79,38 @@ h3 {
 .hr {
   margin-bottom: 35px;
   width: 50%;
+  margin: 0 auto;
 }
+
 .section-4 h3 {
   text-align: center;
   color: rgb(187, 187, 187);
+}
+input {
+  border: none;
+  color: rgb(187, 187, 187);
+  text-align: center;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800px;
 }
 .all-family {
   width: 40%;
   padding-left: 2%;
   padding-top: 3%;
-
+  padding-bottom: 3%;
   border-radius: 15px;
 }
 .container-3 {
   display: flex;
+  margin-top: 25px;
 }
-p {
+.container-3 h2 {
+  margin-top: 25px;
+}
+.container-3 p {
   text-align: left;
+  margin-top: 15px;
 }
 #food-for-family {
   background: rgb(225, 246, 255);
@@ -99,13 +126,17 @@ p {
   margin: 10px;
   margin-right: 120px;
 }
-footer h4 {
-  color: orange;
+footer {
+  color: rgb(255, 70, 70);
   background: #000;
   text-align: center;
   padding: 40px 0;
 }
+footer h2 {
+  font-family: "Lobster", cursive;
+}
 footer p {
   text-align: center;
-  color: white;
+  color: rgb(212, 0, 0);
+  display: inline-block;
 }
