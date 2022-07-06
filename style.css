@@ -1,3 +1,58 @@
 body {
-  background-color: aqua;
+  font-family: "Josefin Sans", sans-serif;
+}
+.top-bg-img {
+  width: 100%;
+  opacity: 0.9;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-h1-p {
+  position: absolute;
+  top: 290px;
+  left: 230px;
+}
+.first-h1 {
+  font-size: 60px;
+}
+.btn {
+  background-color: rgb(248, 68, 68);
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.second-top-text {
+  text-align: center;
+}
+.second-h1 {
+  font-size: 40px;
+}
+h3 {
+  line-height: 25px;
+}
+.taka {
+  border-radius: 5px;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(117, 120, 121);
+  margin: 10px;
+  background: rgb(250, 244, 244);
+  float: left;
+}
+* {
+  box-sizing: border-box;
+}
+.section-3 {
+  content: "";
+  clear: both;
+  display: table;
 }
