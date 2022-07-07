@@ -227,10 +227,11 @@ section .subscribe {
   margin: 0 auto;
   margin-bottom: 100px;
 }
-.container .btn-second {
-  margin: 0 auto;
+.amount-btn {
+  text-align: center;
 }
 .btn-second {
   display: inline-block;
   margin: 0 auto;
+  margin-top: 15px;
 }
